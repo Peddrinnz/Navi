@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>NaviLogin</title>
+</head>
+<body class="bg-white flex flex-col items-center justify-center min-h-screen">
+
+    <header class="absolute top-0 left-0 w-full flex justify-between items-center p-4 bg-slate-100">
+        <a href="../index.html" class="hover:underline font-bold">Ínicio</a>
+        <a href="#" class="text-sm text-blue-600 hover:underline">Precisa de ajuda?</a>
+    </header>
+
+    <main class="w-full max-w-md bg-yellow-300 p-8 rounded-lg shadow-lg mt-24 mb-16">
+        <div class="text-center mb-6">
+            <img src="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" alt="logo" class="h-20 w-20 mx-auto">
+            <h1 class="text-2xl font-bold mt-4">Login</h1>
+            <p class="text-gray-600">Entre com sua conta para continuar</p>
+        </div>
+
+        <form action="#" method="POST">
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
+                <input type="password" id="password" name="password" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="flex items-center justify-between mb-4">
+                <label class="flex items-center">
+                    <input type="checkbox" class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="ml-2 text-sm text-gray-600">Lembrar de mim</span>
+                </label>
+                <a href="#" class="text-sm text-blue-600 hover:underline">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" class="w-full bg-black hover:bg-blue-600 text-white py-2 rounded-md font-bold">Entrar</button>
+        </form>
+
+        <p class="mt-4 text-center text-sm text-gray-600">Ainda não tem uma conta?
+            <a href="#" class="text-blue-600 hover:underline">Cadastre-se</a>.
+        </p>
+    </main>
+
+    <footer class="bg-slate-100 py-8 w-full">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" alt="logo" class="h-12 w-auto mb-6 mx-auto">
+            
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-16">
+                <div class="flex flex-col items-center space-y-2">
+                    <p class="font-semibold mb-2">Atendimento ao cliente</p>
+                    <a href="#" class="hover:underline">Central de Ajuda</a>
+                    <a href="#" class="hover:underline">Garantia</a>
+                    <a href="#" class="hover:underline">Como comprar</a>
+                </div>
+    
+                <div class="flex flex-col items-center space-y-2">
+                    <p class="font-semibold mb-2">Siga-nos</p>
+                    <a href="#" class="hover:underline">Instagram</a>
+                    <a href="#" class="hover:underline">TikTok</a>
+                    <a href="#" class="hover:underline">LinkedIn</a>
+                </div>
+            </div>
+            
+            <p class="mt-8 text-gray-600">© 2024 Navi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

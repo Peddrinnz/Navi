@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>NaviWebsite</title>
+</head>
+<body>
+    <header class="flex items-center justify-between p-4 gap-4 md:gap-8 bg-slate-100">
+        <div class="flex items-center gap-4 md:gap-8">
+            <img src="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" alt="logo" class="h-16 w-16 md:h-20 md:w-20">
+            <a href="#" class="text-lg font-bold">Bem-vindo ao Navi!</a>
+        </div>
+        
+        <div class="flex items-center space-x-2 md:space-x-4">
+            <a href="./index.html" class="hover:underline">Ínicio</a>
+            <a href="../src/pages/about.html" class="hover:underline">Sobre</a>
+            <a href="../src/pages/store.html" class="hover:underline">Loja</a>
+            <form action="../src/pages/login.html">
+                <button type="submit" class="bg-black hover:bg-blue-600 text-white px-4 py-2 rounded-md">Login</button>
+            </form>            
+        </div>
+    </header>
+
+    <main>
+        <section class="relative">
+            <div class="image-container">
+                <img src="https://img-cdn.pixlr.com/image-generator/history/66eaed39745274f15089f982/e56f0fef-0995-4a55-9db2-2fdc757c7c1e/preview.webp" alt="background" class="w-full h-96 object-cover">
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center text-center text-zinc-50 bg-black bg-opacity-40">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold">Bem-vindo ao nosso site!</h1>
+                    <p class="mt-4 font-semibold">Explore, aprenda e conecte-se com a comunidade.</p>
+                    <a href="#" class="mt-6 inline-block bg-black hover:bg-blue-600 text-white font-bold px-4 py-2 rounded">Começar</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 bg-slate-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">Nossos Produtos em Super Oferta!</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <div class="bg-yellow-300 p-6 rounded-lg shadow-md">
+                        <img src="https://img-cdn.pixlr.com/image-generator/history/66ed825c6de19d4aae68cbd3/341f5f88-fdac-484c-aa97-c33f81029b0d/preview.webp" alt="Produto 1" class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-4">Notebook Lenovo</h3>
+                        <p class="mt-2">Notebook Lenovo IdeaPad 1i Intel Core i5 - 8GB RAM SSD 512GB Windows 11 15,6” 15IAU7</p>
+                        <p class="mt-2 text-red-600 font-bold">EM OFERTA!</p>
+                        <p class="mt-2 font-bold">R$ 1699,90</p>
+                        <button class="mt-4 bg-black hover:bg-blue-600 text-white px-4 py-2 rounded">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="bg-yellow-300 p-6 rounded-lg shadow-md">
+                        <img src="https://img-cdn.pixlr.com/image-generator/history/66ed847abf0792c52e5773bb/ba1a671f-4ac7-4728-b731-a8eabddf4d1c/preview.webp" alt="Produto 2" class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-4">SmartPhone LG</h3>
+                        <p class="mt-2">Smartphone LG K62+ 128GB Branco 4G Octa-Core - 4GB RAM Tela 6,59” Câm. Quádrupla + Selfie 28MP</p>
+                        <p class="mt-2 text-red-600 font-bold">EM OFERTA!</p>
+                        <p class="mt-2 font-bold">R$ 1899,99</p>
+                        <button class="mt-4 bg-black hover:bg-blue-600 text-white px-4 py-2 rounded">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="bg-yellow-300 p-6 rounded-lg shadow-md">
+                        <img src="https://img-cdn.pixlr.com/image-generator/history/66ed85fe97dfed62d73d8230/c81234a9-f78d-4dc1-a6ed-de76070da5f8/preview.webp" alt="Produto 3" class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-semibold mt-4">Headset Havit</h3>
+                        <p class="mt-2">Headset Gamer Havit, Drivers 53mm, Microfone Plugável, P2, PC, PS4, XBOX ONE, Azul - HV-H2002D</p>
+                        <p class="mt-2 text-red-600 font-bold">EM OFERTA!</p>
+                        <p class="mt-2 font-bold">R$ 139,99</p>
+                        <button class="mt-4 bg-black hover:bg-blue-600 text-white px-4 py-2 rounded">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="py-12 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-6">Fique por Dentro das Novidades!</h2>
+                <p class="mb-4">Inscreva-se usando seu e-mail para receber as últimas atualizações e ofertas exclusivas.</p>
+                <form class="flex justify-center flex-wrap">
+                    <input type="email" placeholder="Digite seu email" class="border border-gray-300 px-4 py-2 rounded-l-md focus:outline-none focus:ring focus:ring-blue-300 w-full max-w-xs mb-2 sm:mb-0">
+                    <button type="submit" class="bg-black hover:bg-blue-600 text-white px-4 py-2 rounded-r-md">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>    
+
+    <footer class="bg-slate-100 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://gamepedia.cursecdn.com/pubg_esports_gamepedia_en/thumb/e/ef/Natus_Vincerelogo_square.png/1200px-Natus_Vincerelogo_square.png" alt="logo" class="h-12 w-auto mb-4">
+            
+            <div class="flex flex-col md:flex-row justify-center items-center mb-4">
+                <div class="flex flex-col items-center mb-4 md:mr-8">
+                    <p class="mb-1 font-bold">Atendimento ao cliente</p>
+                    <div class="flex flex-col items-center space-y-1">
+                        <a href="#" class="hover:underline">Central de Ajuda</a>
+                        <a href="#" class="hover:underline">Garantia</a>
+                        <a href="#" class="hover:underline">Como comprar</a>
+                    </div>
+                </div>
+    
+                <div class="flex flex-col items-center mb-4">
+                    <p class="mb-1 font-bold">Siga-nos</p>
+                    <div class="flex flex-col items-center space-y-1">
+                        <a href="#" class="hover:underline">Instagram</a>
+                        <a href="#" class="hover:underline">TikTok</a>
+                        <a href="#" class="hover:underline">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="mb-4">© 2024 Navi. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="javascript/transition.js"></script>
+</body>
+</html>
